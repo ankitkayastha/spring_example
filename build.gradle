@@ -27,4 +27,5 @@ targetCompatibility = 1.8
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile group: 'org.jinq', name: 'jinq-jpa', version: '0.4'
 }
